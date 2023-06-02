@@ -154,7 +154,7 @@ int main()
     //2 passo preencher com 0 em todas as posicoes da matriz
     preencheMatrizCom0(matriz);
 
-    //3 o jogador 1 escolhe em que posicao vai ser ocupado pelo número "1"
+    //3 o jogador 1 escolhe em que posicao vai ser ocupado pelo nÃºmero "1"
 
     int jogador1 = 1;
     int jogador2 = 2;
@@ -167,7 +167,7 @@ int main()
         //5 verificar se o jogador 1 venceu
         int resultado1 = verificaVitoria(jogador1, matriz);
         if( resultado1 == jogador1 || resultado1 == 3)
-        {   printf("cai na primeira condicao");
+        {   
             break;
         }
 
@@ -176,7 +176,7 @@ int main()
         //5 verificar se o jogador 2 venceu
         if(resultado2 == jogador2 || resultado2 == 3)
         {
-            printf("cai na segunda condicao");
+            p
             break;
         }
     }
